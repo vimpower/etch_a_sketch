@@ -27,5 +27,6 @@ function createCells(size){
         grid.appendChild(node);
     }
 }
-
-createCells(Math.random() * 16 + 4);
+grid_size = Math.floor(Math.random() * 16) + 4;
+console.log(grid_size);
+createCells(grid_size);
