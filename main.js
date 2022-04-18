@@ -28,4 +28,4 @@ function createCells(size){
     }
 }
 
-createCells(16);
+createCells(Math.random() * 16 + 4);
